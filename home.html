@@ -18,7 +18,7 @@
               <div class="artboard mt-5 artboard-demo phone-1">
                 <div class="stats shadow">
                     <div class="stat">
-                      <div id="" class="stat-value">9000</div>
+                      <div id="account-balance" class="stat-value">9500</div>
                       <div class="stat-desc">Available Balance</div>
                     </div>
                   </div>
@@ -28,33 +28,53 @@
                     <button class="btn">Cash Money</button>
                   </div>
                       <!-- Add Money start here -->
-              <div class="card mt-5 bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <!-- <div class="card mt-5 bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                 <form class="card-body">
                   <div class="form-control">
                     <label class="label">
                       <span class="label-text text-xl font-bold">Add Money</span>
                     </label>
-                    <input id="add-money" type="text" placeholder="Add Money" class="input input-bordered" required />
+                    <input id="input-add-money" type="text" placeholder="Add Money" class="input input-bordered" required />
                   </div>
                   <div class="form-control">
                     <label class="label">
-                      <span class="label-text font-black">Password</span>
+                      <span class="label-text font-black">Digit 4 Pin</span>
                     </label>
-                    <input id="pin-number" type="password" placeholder="4 Digit Pin" class="input input-bordered" required />
-                  
+                    <input id="input-pin-number" type="password" placeholder="4 Digit Pin" class="input input-bordered" required />
                   </div>
                   <div class="form-control mt-6">
-                    <button class="btn btn-primary">Login</button>
+                    <button id="add-button" class="btn btn-primary">Add Money</button>
+                  </div>
+                </form>
+              </div> -->
+              <!-- Add Money end here -->
+               <!-- cash out start here -->
+               <div class="card mt-5 bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text text-xl font-bold">Amount</span>
+                    </label>
+                    <input id="input-cash-out-money" type="text" placeholder="Cash Out Amount" class="input input-bordered" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-black">Digit 4 Pin</span>
+                    </label>
+                    <input id="cash-out-pin-number" type="password" placeholder="4 Digit Pin" class="input input-bordered" required />
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="cash-out-btn" class="btn btn-primary">Cash Money</button>
                   </div>
                 </form>
               </div>
-              <!-- Add Money end here -->
+               <!-- cash out end here -->
               </div>
-          
             </div>
           </div>
     </main>
-    <script></script>
+    <!-- <script src="pay/home.js"></script> -->
+     <script src="pay/cash.js"></script>
 </body>
 
 </html>
