@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expenses</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+</head>
+
+<body>
+    <main class="flex space-y-1 flex-col items-center ">
+        <h1 class="text-xl font-bold">Total Expenses: <span id="expensesSpan">0</span></h1>
+        <div class="">
+          <div class="flex">
+            <input id="expenses-field" type="text" placeholder="Fruits" class="input input-bordered input-primary w-full max-w-xs" />
+            <input id="amount-field" type="text" placeholder="1000" class="input input-bordered input-primary w-full max-w-xs" />
+            <button id="expenses-insert-btn" class="btn btn-primary font-bold text-xl">Insert</button>
+          </div>
+        </div>
+     <section id="main-container">
+
+        <!-- <div id="main-container" class="flex justify-between text-[22px] text-gray-500 w-[300px] pt-5 mr-5 font-bold">
+            <h3 class="textxl">Meal</h3>
+            <h3 class="textxl">10</h3>
+          </div> -->
+     </section>
+    </main>
+    <script src="pay/expenses.js"></script>
+</body>
+
+</html>
